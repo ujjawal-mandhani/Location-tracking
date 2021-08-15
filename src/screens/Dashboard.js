@@ -131,6 +131,7 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     fontFamily: 'sans-serif',
     fontSize: 14,
+    fontWeight: 'bold',
   },
   button: {
     paddingTop: 0,

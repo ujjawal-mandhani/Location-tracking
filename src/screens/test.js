@@ -27,8 +27,8 @@ export default function Test({ navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    position: 'absolute',
     top: 10 + getStatusBarHeight(),
+    position: 'absolute',
     left: 4,
   },
   image: {
