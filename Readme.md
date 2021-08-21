@@ -29,9 +29,8 @@ On refreshing it changes the location of the user and can share the location thr
 
 ![4.jpg](./Screenshots/dashboard.jpg)
 
-![5.jpg](./Screenshots/settings.jpg)
+![file3.gif](./Screenshots/file3.gif)
 
-(I hide my email)
 
 
 ## Installation
