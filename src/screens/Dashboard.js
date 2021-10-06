@@ -49,9 +49,10 @@ export default function Dashboard({ navigation }) {
       setErrorMsg('Permission to access location was denied')
       return
     }
-
-    const loc = await Location.getCurrentPositionAsync({})
-    setLocation(loc)
+    setInterval(async () => {
+      const loc = await Location.getCurrentPositionAsync({})
+      setLocation(loc)
+    }, 1000)
   }
   return (
     <Background>
